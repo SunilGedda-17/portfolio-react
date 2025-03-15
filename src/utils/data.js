@@ -15,28 +15,25 @@ export const SKILLS = [
     skills: [
       { skill: "Node.js", percentage: "70%" },
       { skill: "Java", percentage: "75%" },
+      { skill: "SPring Boot", percentage: "75%" },
     ],
   },
   {
-    title: "Tools",
-    icon: "./assets/images/tools.png",
-    skills: [
-      { skill: "Git & GitHub", percentage: "85%" },
-      { skill: "AWS", percentage: "20%" },
-      { skill: "Docker", percentage: "60%" },
-      { skill: "Responsive Design", percentage: "60%" },
-    ],
+    "title": "Tools",
+    "icon": "./assets/images/tools.png",
+    "skills": [
+      { "skill": "Git & GitHub", "percentage": "85%" },
+      { "skill": "Docker", "percentage": "60%" },
+      { "skill": "Responsive Design", "percentage": "60%" }
+    ]
   },
   {
-    title: "Soft Skills",
-    icon: "./assets/images/softskills.png",
-    skills: [
-      { skill: "Problem-solving", percentage: "40%" },
-      { skill: "Collaboration", percentage: "85%" },
-      { skill: "Attention ", percentage: "95%" },
-      { skill: "Leadership Qualities", percentage: "75%" },
-
-    ],
+    "title": "Cloud",
+    "icon": "./assets/images/cloud.png",
+    "skills": [
+      { "skill": "AWS", "percentage": "60%" }
+      { "skill": "Azure", "percentage": "70%" }
+    ]
   },
 ];
 
